@@ -1,0 +1,190 @@
+2017-10-02 13:43:19,881 - root - INFO - userId: 8888@gmail.com
+2017-10-02 13:43:20,406 - root - ERROR - JsonRpcError(-32603): <urlopen error [Errno 111] Connection refused> -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 32, in getNewsSummariesForUser
+    return operations.getNewsSummariesForUser(user_id, page_num)
+  File "/home/nathalie/bittigercs503-1703/weekFinal/backend_server/operations.py", line 78, in getNewsSummariesForUser
+    preference = news_recommendation_service_client.getPreferenceForUser(user_id)
+  File "/home/nathalie/bittigercs503-1703/weekFinal/backend_server/../common/news_recommendation_service_client.py", line 13, in getPreferenceForUser
+    preference = client.call('getPreferenceForUser', userId)
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/http.py", line 259, in call
+    debug = self.debug
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/http.py", line 132, in http_request
+    response = urllib2.urlopen(request, timeout = timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1198, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 111] Connection refused>
+
+2017-10-02 13:43:26,030 - root - INFO - userId: 8888@gmail.com
+2017-10-02 13:43:26,033 - root - ERROR - JsonRpcError(-32603): <urlopen error [Errno 111] Connection refused> -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 32, in getNewsSummariesForUser
+    return operations.getNewsSummariesForUser(user_id, page_num)
+  File "/home/nathalie/bittigercs503-1703/weekFinal/backend_server/operations.py", line 78, in getNewsSummariesForUser
+    preference = news_recommendation_service_client.getPreferenceForUser(user_id)
+  File "/home/nathalie/bittigercs503-1703/weekFinal/backend_server/../common/news_recommendation_service_client.py", line 13, in getPreferenceForUser
+    preference = client.call('getPreferenceForUser', userId)
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/http.py", line 259, in call
+    debug = self.debug
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/http.py", line 132, in http_request
+    response = urllib2.urlopen(request, timeout = timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1198, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 111] Connection refused>
+
+2017-10-02 13:45:58,782 - root - INFO - userId: 8888@gmail.com
+2017-10-02 13:46:08,427 - root - INFO - userId: 8888@gmail.com
+2017-10-02 13:46:13,051 - root - INFO - userId: 8888@gmail.com
+2017-10-02 14:00:28,618 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 14:01:02,659 - root - INFO - userId: 8888@gmail.compageNumber: 2
+2017-10-02 14:01:08,441 - root - INFO - userId: 8888@gmail.compageNumber: 3
+2017-10-02 14:01:12,486 - root - INFO - userId: 8888@gmail.compageNumber: 4
+2017-10-02 14:02:43,808 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 14:03:13,847 - root - INFO - userId: 8888@gmail.compageNumber: 2
+2017-10-02 14:03:23,125 - root - INFO - userId: 8888@gmail.compageNumber: 3
+2017-10-02 14:44:22,035 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:32:05,596 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:32:17,744 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:32:43,408 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:34:47,575 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:34:50,655 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:38:10,882 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:41:38,521 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:41:41,228 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:43:08,993 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:43:11,703 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:43:36,607 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:50:19,682 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:52:13,553 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:52:17,616 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 16:58:59,281 - root - INFO - userId: 8888@gmail.compageNumber: 1
+2017-10-02 21:11:18,348 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-02 21:11:29,231 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-02 21:11:48,686 - root - ERROR - JsonRpcError(-32603): localhost:27017: [Errno 111] Connection refused -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 32, in getNewsSummariesForUser
+    return operations.getNewsSummariesForUser(user_id, page_num)
+  File "/home/nathalie/bittigercs503-1703/weekFinal/backend_server/operations.py", line 69, in getNewsSummariesForUser
+    total_news = list(db[NEWS_TABLE_NAME].find().sort([('publishedAt', -1)]).limit(NEWS_LIMIT))
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/cursor.py", line 1134, in next
+    if len(self.__data) or self._refresh():
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/cursor.py", line 1057, in _refresh
+    self.__collation))
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/cursor.py", line 894, in __send_message
+    **kwargs)
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/mongo_client.py", line 933, in _send_message_with_response
+    server = topology.select_server(selector)
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/topology.py", line 214, in select_server
+    address))
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/topology.py", line 189, in select_servers
+    self._error_message(selector))
+ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused
+
+2017-10-02 21:11:59,318 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-02 21:11:59,646 - root - ERROR - JsonRpcError(-32603): localhost:27017: [Errno 111] Connection refused -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 32, in getNewsSummariesForUser
+    return operations.getNewsSummariesForUser(user_id, page_num)
+  File "/home/nathalie/bittigercs503-1703/weekFinal/backend_server/operations.py", line 69, in getNewsSummariesForUser
+    total_news = list(db[NEWS_TABLE_NAME].find().sort([('publishedAt', -1)]).limit(NEWS_LIMIT))
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/cursor.py", line 1134, in next
+    if len(self.__data) or self._refresh():
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/cursor.py", line 1057, in _refresh
+    self.__collation))
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/cursor.py", line 894, in __send_message
+    **kwargs)
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/mongo_client.py", line 933, in _send_message_with_response
+    server = topology.select_server(selector)
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/topology.py", line 214, in select_server
+    address))
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/topology.py", line 189, in select_servers
+    self._error_message(selector))
+ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused
+
+2017-10-02 21:12:29,736 - root - ERROR - JsonRpcError(-32603): localhost:27017: [Errno 111] Connection refused -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 32, in getNewsSummariesForUser
+    return operations.getNewsSummariesForUser(user_id, page_num)
+  File "/home/nathalie/bittigercs503-1703/weekFinal/backend_server/operations.py", line 69, in getNewsSummariesForUser
+    total_news = list(db[NEWS_TABLE_NAME].find().sort([('publishedAt', -1)]).limit(NEWS_LIMIT))
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/cursor.py", line 1134, in next
+    if len(self.__data) or self._refresh():
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/cursor.py", line 1057, in _refresh
+    self.__collation))
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/cursor.py", line 894, in __send_message
+    **kwargs)
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/mongo_client.py", line 933, in _send_message_with_response
+    server = topology.select_server(selector)
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/topology.py", line 214, in select_server
+    address))
+  File "/home/nathalie/.local/lib/python2.7/site-packages/pymongo/topology.py", line 189, in select_servers
+    self._error_message(selector))
+ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused
+
+2017-10-02 21:14:47,956 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-02 21:15:24,838 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-02 21:15:37,926 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-02 21:15:43,401 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-02 21:16:00,166 - root - INFO - userId: 8888@gmail.com  pageNumber: 2
+2017-10-02 21:40:56,169 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-02 21:42:19,282 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-02 21:43:08,074 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-02 21:43:11,976 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-02 21:43:14,946 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-02 21:43:31,522 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-02 21:49:02,687 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-04 14:15:41,014 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-04 15:09:39,631 - root - INFO - userId: 8888@gmail.com  pageNumber: 2
+2017-10-09 21:39:43,676 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-09 21:39:49,317 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-09 21:39:52,316 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-09 21:40:01,839 - root - INFO - userId: 8888@gmail.com  pageNumber: 2
+2017-10-09 21:41:17,157 - root - INFO - userId: alice9999@gmail.com  pageNumber: 1
+2017-10-09 21:52:12,868 - root - INFO - userId: alice9999@gmail.com  pageNumber: 1
+2017-10-09 21:52:15,989 - root - INFO - userId: alice9999@gmail.com  pageNumber: 1
+2017-10-09 21:52:17,729 - root - INFO - userId: alice9999@gmail.com  pageNumber: 1
+2017-10-09 21:52:19,212 - root - INFO - userId: alice9999@gmail.com  pageNumber: 1
+2017-10-09 21:52:24,550 - root - INFO - userId: alice9999@gmail.com  pageNumber: 1
+2017-10-09 21:52:31,114 - root - INFO - userId: alice9999@gmail.com  pageNumber: 1
+2017-10-09 21:59:36,239 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-09 21:59:39,779 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-09 21:59:42,353 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-09 21:59:44,849 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-09 22:00:00,641 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-09 22:00:11,287 - root - INFO - userId: 8888@gmail.com  pageNumber: 2
+2017-10-09 22:00:17,579 - root - INFO - userId: 8888@gmail.com  pageNumber: 3
+2017-10-09 22:00:23,653 - root - INFO - userId: 8888@gmail.com  pageNumber: 4
+2017-10-09 22:00:27,503 - root - INFO - userId: 8888@gmail.com  pageNumber: 5
+2017-10-09 22:00:42,306 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-09 22:00:43,614 - root - INFO - userId: 8888@gmail.com  pageNumber: 2
+2017-10-09 22:00:55,517 - root - INFO - userId: 8888@gmail.com  pageNumber: 3
+2017-10-10 11:40:49,725 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-10 11:54:41,301 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-10 11:54:44,134 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-10 11:54:46,374 - root - INFO - userId: 8888@gmail.com  pageNumber: 1
+2017-10-10 12:19:35,181 - root - INFO - userId: 8888@gmail.com  pageNumber: 1

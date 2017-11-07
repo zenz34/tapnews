@@ -1,0 +1,17 @@
+operations:
+  REDIS_HOST : "localhost"
+  REDIS_PORT : 6379
+
+  NEWS_TABLE_NAME : "news"
+  CLICK_LOGS_TABLE_NAME : 'click_logs'
+
+  NEWS_LIMIT : 100
+  NEWS_LIST_BATCH_SIZE : 10
+  USER_NEWS_TIME_OUT_IN_SECONDS : 60
+
+  LOG_CLICKS_TASK_QUEUE_URL : "amqp://crxnfwlj:Xit95SxV29p5HAoSUwDO0BsMd9G6KC82@crane.rmq.cloudamqp.com/crxnfwlj"
+  LOG_CLICKS_TASK_QUEUE_NAME : "clickLog"
+
+service:
+  SERVER_HOST : 'localhost'
+  SERVER_PORT : 4040
